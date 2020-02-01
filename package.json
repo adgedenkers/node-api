@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "Node.js ExpressJS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adgedenkers/node-api.git"
+  },
+  "keywords": [
+    "node.js",
+    "expressjs",
+    "api"
+  ],
+  "author": "Adge Denkers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adgedenkers/node-api/issues"
+  },
+  "homepage": "https://github.com/adgedenkers/node-api#readme"
+}

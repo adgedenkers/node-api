@@ -1,32 +1,40 @@
 {
-  "name": "api",
-  "version": "0.0.1",
-  "description": "Node.js ExpressJS API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adgedenkers/node-api.git"
-  },
-  "keywords": [
-    "node.js",
-    "expressjs",
-    "api"
-  ],
-  "author": "Adge Denkers",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adgedenkers/node-api/issues"
-  },
-  "homepage": "https://github.com/adgedenkers/node-api#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express4-tedious": "^0.3.0",
-    "helmet": "^3.21.2",
-    "https": "^1.0.0",
-    "morgan": "^1.9.1"
-  }
+    "name": "api",
+    "version": "0.0.1",
+    "description": "Node.js ExpressJS API",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adgedenkers/node-api.git"
+    },
+    "keywords": [
+        "node.js",
+        "expressjs",
+        "api"
+    ],
+    "author": "Adge Denkers",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adgedenkers/node-api/issues"
+    },
+    "homepage": "https://github.com/adgedenkers/node-api#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express4-tedious": "^0.3.0",
+        "helmet": "^3.21.2",
+        "https": "^1.0.0",
+        "jsonwebtoken": "^7.3.0",
+        "moment": "^2.17.1",
+        "moment-timezone": "^0.5.13",
+        "mongoose": "^5.1.1",
+        "morgan": "^1.9.1",
+        "node-uuid": "^1.4.8",
+        "nodemon": "^2.0.2",
+        "swagger-ui-express": "^2.0.13",
+        "sync-request": "^4.0.2"
+    }
 }

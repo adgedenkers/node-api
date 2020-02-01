@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/adgedenkers/node-api/issues"
   },
-  "homepage": "https://github.com/adgedenkers/node-api#readme"
+  "homepage": "https://github.com/adgedenkers/node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express4-tedious": "^0.3.0",
+    "helmet": "^3.21.2",
+    "https": "^1.0.0",
+    "morgan": "^1.9.1"
+  }
 }
